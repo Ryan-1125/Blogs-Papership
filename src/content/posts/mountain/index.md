@@ -1,9 +1,9 @@
 ---
 title: 五岳终章：以脚步赴青春，以攀登敬热爱
 published: 2026-03-18
-description: '以脚步赴青春，以攀登敬热爱'
+description: '从高考前的少年约定，到两年多的山河奔赴'
 image: ''
-tags: [ '旅行']
+tags: ['旅行']
 category: '旅行家说'
 draft: false 
 lang: 'zh-CN'

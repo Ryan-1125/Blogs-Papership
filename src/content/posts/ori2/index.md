@@ -1,8 +1,8 @@
 ---
-title: 在萤火与光影中重生：写给《奥日2：精灵与萤火意志》的一封情书
+title: 写给《奥日2：精灵与萤火意志》的一封情书
 published: 2025-11-30
-description: 被剧情、美术与音乐狠狠打动，聊聊这款堪称艺术品的银河恶魔城神作
-image: './cover.png'
+description: 在萤火与光影中重生：聊聊这款堪称艺术品的银河恶魔城神作
+image: ''  #./cover.png
 tags: ['游戏']
 category: 浮生戏语
 draft: false
