@@ -12,10 +12,12 @@ import { onMount } from "svelte";
 import type { LIGHT_DARK_MODE } from "@/types/config.ts";
 
 const seq: LIGHT_DARK_MODE[] = [LIGHT_MODE, DARK_MODE, AUTO_MODE];
-let mode: LIGHT_DARK_MODE = $state(AUTO_MODE);
+let mode: LIGHT_DARK_MODE = $state(LIGHT_MODE); // 第一步：默认模式改成 LIGHT_MODE
 
 onMount(() => {
-	mode = getStoredTheme();
+
+	mode = getStoredTheme() || LIGHT_MODE;      // 第二步：本地存储为空时，默认亮色
+
 	const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
 	const changeThemeWhenSchemeChanged: Parameters<
 		typeof darkModePreference.addEventListener<"change">
