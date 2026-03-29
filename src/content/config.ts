@@ -19,9 +19,36 @@ const postsCollection = defineCollection({
 		nextSlug: z.string().default(""),
 	}),
 });
+
+//给 spec 定义完整 schema
 const specCollection = defineCollection({
-	schema: z.object({}),
+	schema: z.object({
+		title: z.string().optional(),
+
+		// 本站信息
+		myInfo: z
+			.object({
+				name: z.string(),
+				introduction: z.string(),
+				link: z.string(),
+				avatar: z.string(),
+			})
+			.optional(),
+
+		// 友链列表
+		friends: z
+			.array(
+				z.object({
+					name: z.string(),
+					introduction: z.string(),
+					link: z.string(),
+					avatar: z.string(),
+				}),
+			)
+			.optional(),
+	}),
 });
+
 export const collections = {
 	posts: postsCollection,
 	spec: specCollection,
