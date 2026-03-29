@@ -17,6 +17,11 @@ myInfo:
 # ==============================================
 friends:
 
+  - name: Ivy的博客
+    introduction: code weaves world
+    link: https://lvyovo-wiki.tech/
+    avatar: https://avatars.githubusercontent.com/u/175585268?v=4
+
   - name: 北城烟雨阁
     introduction: 玉楼金阙慵归去，且插梅花醉洛阳
     link: https://blog.sparklerain.top/
