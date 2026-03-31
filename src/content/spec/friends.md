@@ -10,7 +10,7 @@ myInfo:
 
 # ==============================================
 # 【友链列表】在这里加朋友的网站
-  #- name: 友人A                                  # 朋友的网站名字
+  #- name: 友人A                              # 朋友的网站名字
   #  introduction:                            # 朋友的简介
   #  link: https://aaa.com                    # 朋友的网址
   #  avatar: https://aaa.com/avatar.png       # 朋友的头像
