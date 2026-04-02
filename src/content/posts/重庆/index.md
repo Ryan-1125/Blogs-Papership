@@ -3,7 +3,7 @@ title: 双喜临门——重庆
 published: 2025-11-05
 description: 山与城的挂念，人与江的对白
 image: ''
-tags: ['全部文章', '旅行', '重庆', '李荣浩演唱会']
+tags: ['全部文章', '旅行', '重庆', '演唱会']
 category: 旅行家说
 draft: false
 lang: 'zh-CN'
