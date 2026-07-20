@@ -26,6 +26,11 @@ friends:
     introduction: 玉楼金阙慵归去，且插梅花醉洛阳
     link: https://blog.sparklerain.top/
     avatar: https://blog.sparklerain.top/_astro/avatar.DsvW9YNX_2q0Vc2.webp
+
+  - name: MarkCup
+    introduction: 永不言弃，无限进步
+    link: https://blog.markcup.cc
+    avatar: https://cloud.markcup.cc:26080/d/MarK_MkSaMa/Photo/hualian.jpg
     
 ---
 
