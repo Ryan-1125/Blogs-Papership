@@ -29,8 +29,8 @@ friends:
 
   - name: MarkCup
     introduction: 永不言弃，无限进步
-    link: https://blog.markcup.cc
-    avatar: https://cloud.markcup.cc:26080/d/MarK_MkSaMa/Photo/hualian.jpg
+    link: https://blog.markskz.com
+    avatar: https://cloud.markskz.com/d/MarK_MkSaMa/Photo/hualian.jpg
     
 ---
 
